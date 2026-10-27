@@ -627,10 +627,16 @@ These slides are for demos, and later for reference.
 
 |||
 |:---|:---|
-|**Description**|`Terminal.app` sucks. Use this instead.
+|**Description**|<small>`Terminal.app` sucks. Use this instead.</small>
 |**Model**|FOSS
 |**Link**|https://iterm2.com
 |**Install**|`brew install --cask iterm2`|
+
+**Good alternatives**:
+
+- [Ghostty](https://ghostty.org)
+- [kitty](https://sw.kovidgoyal.net/kitty)
+- [Alacritty](https://alacritty.org)
 
 </div><div>
 
@@ -643,6 +649,41 @@ Useful shortcuts:
 - <kbd>⌘</kbd> + <kbd>D</kbd>: Split vertical.
 - <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>D</kbd>: Split horizontal.
 - <kbd>⌃</kbd> + <kbd>D</kbd>: Close tab/panel (standard UNIX for logging out).
+
+</div></div>
+</small>
+
+---
+
+### Sublime Text
+
+<small>
+<div class="columns">
+
+<div>
+
+|||
+|:---|:---|
+|**Description**|Lean, fast and customizable text editor.
+|**Model**|Paid, with eternal free trial
+|**Link**|https://www.sublimetext.com
+|**Install**|<small><small>`brew install --cask sublime-text`</small></small>|
+
+**Good alternatives**:
+- [neovim](https://neovim.io/) for vim people.
+- [Zed](https://zed.dev/)
+
+*Built-in TextEdit app not recommended.*
+
+</div><div>
+
+- Not a replacement to IDEs, just a good text editor.
+- Nice as a default for opening text-based files.
+- Many plugins and themes.
+- Very easy to hack via Python.
+- Opens instantly.
+- Persists all windows and tabs.
+- Very good multiline editing (invented the concept).
 
 </div></div>
 </small>
@@ -852,6 +893,8 @@ Preview things within the Finder with <kbd>Space</kbd>:
 
 ## Sidenote about apps
 
+Before we move on from apps:
+
 - Applications have an `.app` extension, but they are actually folders.
 - Right click an app in Finder → “Show Package Contents”.
     - You can also just navigate to them with `ls` in a terminal.
@@ -895,7 +938,7 @@ And they have super funky names like `NSGlobalDomain.NSNavPanelExpandedStateForS
 
 As part of the automation from the next chapter, I curated a list of settings.
 
-→ Let's go through it just for fun.
+→ [Let's go through them quickly just for fun.](https://github.com/Tenchi2xh/dotfiles/blob/main/config/macos-preferences.yaml)
 
 ---
 
@@ -984,4 +1027,10 @@ As part of the automation from the next chapter, I curated a list of settings.
 
 ---
 
-# Fin
+<center>
+
+<img class="round" src="img/hamza.jpg" />
+
+# Peace.
+
+</center>

@@ -77,6 +77,12 @@ section[id="1"] footer {
     left: unset;
 }
 
+.round {
+   width: 7.5em;
+    border-radius: 40%;
+    margin-bottom: -1em;
+}
+
 /* highlight.js support */
 :root {
   --cs-background: #f1e7da;
