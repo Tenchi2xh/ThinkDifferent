@@ -9,8 +9,9 @@ paginate: true
 math: mathjax
 ---
 
+<!-- _paginate: false -->
 <!-- _header: '' -->
-<!-- _footer: 'License: CC0 | AI Usage: None' -->
+<!-- _footer: 'License: CC0 · AI Usage: None' -->
 
 # How to Think Different™
 
@@ -28,7 +29,11 @@ math: mathjax
 
 <!-- header: '<div>How to Think Different™</div><img class="header-logo" src="img/hanko_basic.png" />' -->
 
-## Contents
+<center>
+
+## Table of Contents
+
+</center>
 
 <div class="columns">
 
@@ -36,12 +41,16 @@ math: mathjax
     <li>Introduction</li>
     <li>OS navigation</li>
     <li>Keyboard shortcuts</li>
-    <li>System extensions</li>
 </ol>
 
-<ol type="I" start="5">
+<ol type="I" start="4">
+    <li>Pitfalls and troubleshooting</li>
+    <li>Third-party tools and apps</li>
+    <li>Third-party extensions</li>
+</ol>
+
+<ol type="I" start="7">
     <li>Useful built-in applications</li>
-    <li>Third-party tools and applications</li>
     <li>Saner settings</li>
     <li>Dotfiles</li>
 </ol>
@@ -53,7 +62,7 @@ math: mathjax
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# Introduction
+# I. Introduction
 
 <audio controls>
     <source src="img/startup.ogg" type="audio/ogg">
@@ -128,7 +137,7 @@ This workshop will:
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# OS navigation
+# II. OS navigation
 
 *It's not what it looks like! I can explain!*
 
@@ -152,12 +161,25 @@ This workshop will:
 
 - Traffic light buttons: ![w:66](img/./traffic.png)
     - <span style="color: red">**Red**</span>: close,
+        **Note**: Closing the last window of an app most often doesn't quit the app.
     - <span style="color: #fb0">**Yellow**</span>: minimize,
         **Recommendation**: never use, forget about minimizing.
     - <span style="color: green">**Green**</span>: full screen.
         **Recommendation**: use rarely, remember that it makes a new space.
 - Double click title bar: maximize (we'll come back on this later).
 - Exposé: overview of *all windows* or *current application*.
+
+---
+
+## A note about closing windows
+
+- On Windows, closing an app's main window exits that app.
+- On macOS, the app keeps running:
+    - Focusing that app shows no window, but the menu bar has its name and menu items.
+    - This results in a lot of zombie apps that take ram and do nothing.
+    - Only by quitting the app with <kbd>⌘</kbd> + <kbd>Q</kbd> or using the menu actually quits the app.
+
+Don't close windows, just use <kbd>⌘</kbd> + <kbd>Q</kbd>.
 
 ---
 
@@ -195,6 +217,12 @@ Don't full screen windows, unless you want to look neater during a presentation.
 
 ---
 
+## A note about the traffic light buttons ![w:66](img/./traffic.png)
+
+**Recommendation**: avoid using.
+
+---
+
 ## Spotlight
 
 One of the most useful shortcuts: <kbd>⌘</kbd> + <kbd>Space</kbd>.
@@ -224,13 +252,13 @@ Use it for everything:
 
 ---
 
-## The Finder
+## Finder
 
 The “Explorer” of macOS. It's better because you don't explore, you find.
 
 Worthy of note:
 
-- You can't exit that app, it runs forever and <kbd>⌘</kbd> + <kbd>Q</kbd> does nothing.
+- You can't exit that the Finder. It runs forever and <kbd>⌘</kbd> + <kbd>Q</kbd> does nothing.
 - Supports tabs (<kbd>⌘</kbd> + <kbd>T</kbd>).
 - Dragging files moves, hold <kbd>⌥</kbd> to copy.
 - Use <kbd>Space</kbd> to preview things (more on that on the *Preview* slide).
@@ -240,7 +268,7 @@ Worthy of note:
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# Keyboard shortcuts
+# III. Keyboard shortcuts
 
 *A frankly unreasonable amount of shortcuts.*
 
@@ -456,7 +484,7 @@ You're probably thinking: *“WTF.”*
 
 ![w:340](img/screenshot_1.jpg) ![w:340](img/screenshot_2.jpg)
 
-Figure 34.a and 34.b: How to RSI
+Figure 36.a and 36.b: How to RSI
 
 </center>
 
@@ -515,9 +543,15 @@ In mode 4 (drag a box thingy), press <kbd>Space</kbd> to switch to window captur
 
 ---
 
-## Pitfalls
+# IV. Pitfalls
 
-Before we move on to apps, a few pitfalls.
+*Tiny chapter to make it a nice three-column table of contents.*
+
+---
+
+<small>
+
+## Common issues
 
 If you can't find your app:
 
@@ -526,22 +560,99 @@ If you can't find your app:
 - You might have full screened it with <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>F</kbd> or the 🟢 button.
     Look at your spaces by swiping three fingers around.
 
+You have a lot of apps running for no reason. Tabbing to them shows nothing:
+
+- You closed all the windows of that app using <kbd>⌘</kbd> + <kbd>W</kbd> or the 🔴 button.
+    Closing windows does not quit apps.
+    Quit the app with <kbd>⌘</kbd> + <kbd>Q</kbd> or click the main menu of that app (just right of the Apple logo) and choose “Quit”
+
+</small>
+
 ---
 
-### Pitfalls lessons
+## Advice
 
 - Don't minimize, and only full-screen for videos or presentations.
 - Keep all your windows in one space. To find your windows, do either:
     - A combination of <kbd>⌘</kbd> + <kbd>Tab</kbd> and <kbd>⌘</kbd> + <kbd><</kbd> / <kbd>></kbd>.
     - A combination of <kbd>⌘</kbd> + <kbd>Tab</kbd> and the three fingers down gesture.
     - Three fingers up gesture (if you have a very recognizable window).
+- When you intend to quit an app, don't use the 🔴 button. Quit the app instead.
 
 ---
 
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# System extensions
+# V. Third-party tools and applications
+
+*The rest of the batteries.*
+
+---
+
+## Preamble
+
+Everything after these slides will be automatically installed during the last chapter.
+
+These slides are for demos, and later for reference.
+
+---
+
+### Homebrew
+
+<small>
+
+|||
+|:---|:---|
+|**Description**|De-facto standard package manager for macOS, maintained by the community.
+|**Model**|FOSS
+|**Link**|https://brew.sh
+|**Install**|`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`|
+
+**Notes**:
+
+- Main function: install packages and dependencies
+- Secondary function: install GUI applications (called “casks”)
+
+</small>
+
+---
+
+### iTerm2
+
+<small>
+<div class="columns">
+
+<div>
+
+|||
+|:---|:---|
+|**Description**|`Terminal.app` sucks. Use this instead.
+|**Model**|FOSS
+|**Link**|https://iterm2.com
+|**Install**|`brew install --cask iterm2`|
+
+</div><div>
+
+- Best feature: global hotkey. I set it to <kbd>⌘</kbd> + <kbd>§</kbd>.
+- Second best-feature: automatic copying.
+
+Useful shortcuts:
+- <kbd>⌘</kbd> + <kbd>T</kbd>: New tab.
+- <kbd>⌘</kbd> + <kbd>K</kbd>: Clear.
+- <kbd>⌘</kbd> + <kbd>D</kbd>: Split vertical.
+- <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>D</kbd>: Split horizontal.
+- <kbd>⌃</kbd> + <kbd>D</kbd>: Close tab/panel (standard UNIX for logging out).
+
+</div></div>
+</small>
+
+---
+
+<!-- _header: '' -->
+<!-- _footer: '' -->
+
+# VI. Third-party extensions
 
 *Unofficial tools to customize the OS more, or add missing functionalities.*
 
@@ -688,7 +799,7 @@ A lot of them used to be paid, but now there's a plethora of free or FOSS altern
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# Useful built-in applications
+# VII. Useful built-in applications
 
 *Comes with some batteries included.*
 
@@ -700,8 +811,9 @@ A lot of them used to be paid, but now there's a plethora of free or FOSS altern
 
 Just like the task manager on Windows, with more options.
 
-
 ---
+
+![bg left:50% contain](img/preview.png)
 
 ## Preview
 
@@ -724,6 +836,7 @@ Preview things within the Finder with <kbd>Space</kbd>:
 
 - You can then still navigate files with <kbd>↑</kbd> / <kbd>↓</kbd> while the preview is open.
 - Supports more formats than the regular Preview app.
+    - Images, audio, 3d models, etc.
     - Installed apps can implement their own preview algorithms.
 
 ---
@@ -750,50 +863,46 @@ Preview things within the Finder with <kbd>Space</kbd>:
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# Third-party tools and applications
-
-*The rest of the batteries.*
-
----
-
-## Homebrew
-
----
-
-## iTerm
-
-Built-in `Terminal.app` sucks. Use this instead.
-
-<small>
-
-Best feature: Global hotkey. I like to set it on <kbd>⌘</kbd> + <kbd>§</kbd>.
-
-Second best-feature: automatic copying (just select text and it's always copied).
-
-Useful shortcuts:
-- <kbd>⌘</kbd> + <kbd>T</kbd>: New tab.
-- <kbd>⌘</kbd> + <kbd>K</kbd>: Clear.
-- <kbd>⌘</kbd> + <kbd>D</kbd>: Split vertical.
-- <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>D</kbd>: Split horizontal.
-- <kbd>⌃</kbd> + <kbd>D</kbd>: Close tab/panel (standard UNIX for logging out).
-
-</small>
-
----
-
-<!-- _header: '' -->
-<!-- _footer: '' -->
-
-# Saner settings
+# VIII. Saner settings
 
 *“Natural scrolling” is nothing but natural.*
 
 ---
 
+## A lot of bad settings
+
+- By default, various settings have insane defaults.
+- Settings are spread throughout the OS:
+    - Some in the Settings app
+    - A lot hidden throughout various other apps (Finder for example)
+- You probably already went through all of those page by page.
+
+---
+
+*However...*
+
+## Some settings can only be changed through scripting.
+
+<small>
+
+And they have super funky names like `NSGlobalDomain.NSNavPanelExpandedStateForSaveMode2`
+
+</small>
+
+---
+
+## Solution?
+
+As part of the automation from the next chapter, I curated a list of settings.
+
+→ Let's go through it just for fun.
+
+---
+
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-# Dotfiles
+# IX. Dotfiles
 
 *Hide yo files, hide yo folders.*
 
@@ -803,8 +912,10 @@ Useful shortcuts:
 
 - On UNIX-like environments, hidden files or folders.
 - Most tools will pollute your `~/` full of dotfiles.
-- People have started version controlling their home folder dotfiles.
-- Even better: they made tools to manage and apply their version-controlled dotfiles.
+- Configuring a whole new computer can take a week.
+    - People have started version controlling their home folder dotfiles.
+    - Even better: they made tools to manage and apply their version-controlled dotfiles.
+    - It's like CI for your own computer.
 
 ---
 
