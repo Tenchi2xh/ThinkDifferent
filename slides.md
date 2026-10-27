@@ -20,7 +20,7 @@ math: mathjax
     <img class="intro-logo" src="img/hanko_basic.png" />
     <div class="intro-block">
         <div>Hamza Haiken</div>
-        <a href="https://github.com/Tenchi2xh/ThinkingDifferent">https://github.com/Tenchi2xh/ThinkingDifferent</a>
+        <a href="https://github.com/Tenchi2xh/ThinkDifferent">https://github.com/Tenchi2xh/ThinkDifferent</a>
     </div>
 </div>
 
