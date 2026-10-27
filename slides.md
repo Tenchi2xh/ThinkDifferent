@@ -72,8 +72,15 @@ math: mathjax
 
 ## What this workshop offers
 
-- A highly opinionated way of using macOS.
-- Aimed at productivity.
+I am kind of a perfectionist and like to customize everything.
+
+What I will share with you is the result of 10 years of perfecting my setup.
+
+The focus will be:
+
+- A highly opinionated way of using macOS,
+- Removing barriers to productivity,
+- Having a neat, customized OS and tools.
 
 ---
 
