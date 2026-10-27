@@ -509,7 +509,7 @@ In mode 4 (drag a box thingy), press <kbd>Space</kbd> to switch to window captur
 ![bg right:44% contain](img/unicode.jpg)
 
 - <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>Space</kbd> opens
-    a unicode search popup.
+    a Unicode search popup.
 - No need to search online!
 
 ---
@@ -604,7 +604,7 @@ These slides are for demos, and later for reference.
 
 |||
 |:---|:---|
-|**Description**|De-facto standard package manager for macOS, maintained by the community.
+|**Description**|De facto standard package manager for macOS, maintained by the community.
 |**Model**|FOSS
 |**Link**|https://brew.sh
 |**Install**|`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`|
@@ -683,7 +683,7 @@ Useful shortcuts:
 - Very easy to hack via Python.
 - Opens instantly.
 - Persists all windows and tabs.
-- Very good multiline editing (invented the concept).
+- Very good multi-line editing (invented the concept!).
 
 </div></div>
 </small>
@@ -777,7 +777,7 @@ A lot of them used to be paid, but now there's a plethora of free or FOSS altern
 
 |||
 |:---|:---|
-|**Description**|Disables acceleartion on physical scroll wheels
+|**Description**|Disables acceleration on physical scroll wheels
 |**Model**|FOSS
 |**Link**|https://github.com/linearmouse/linearmouse
 |**Install**|`brew install --cask linearmouse`|
@@ -860,7 +860,7 @@ Just like the task manager on Windows, with more options.
 
 Main app for viewing any type of visual media:
 
-- All types of images, with basic editing capabilites.
+- All types of images, with basic editing capabilities.
 - One of the best PDF viewer ***AND*** editor.
     - Add text, shapes, images.
     - Reorder or delete pages.
@@ -969,6 +969,8 @@ As part of the automation from the next chapter, I curated a list of settings.
 - Supports various triggers for executing scripts.
 - Support for many password managers.
 - Explicit name-based permissions: private files, executables, etc.
+- Dotfiles made by Chezmoi are symlinks
+    → **Change your settings in an app, the change is made directly in your repository**.
 - And many other features I don't use.
 
 ---
@@ -984,6 +986,7 @@ As part of the automation from the next chapter, I curated a list of settings.
     - Configure macOS with custom settings,
     - Configure `zsh` with custom theme, animations and plugins,
     - Configure some third-party tools,
+    - Installs and uses my own customized terminal font,
     - Optional: organize the dock and set up custom icons.
 - Very opinionated and themed around my branding, but easily customizable.
 
