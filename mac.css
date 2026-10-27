@@ -9,6 +9,8 @@ h1 {
     color: black;
     font-size: 3em;
     font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h2 {
@@ -39,4 +41,33 @@ kbd {
 
 img {
     dynamic-range-limit: standard;
+}
+
+section header {
+    width: calc(100% - 30px * 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-logo {
+    height: 2.5em;
+    margin-right: 0.5em;
+}
+
+.header-logo {
+    height: 2.5em;
+    opacity: 0.4;
+}
+
+.intro {
+    margin-top: 10em;
+    display: flex;
+}
+
+.intro-block {
+    line-height: 1.2;
+}
+
+section[data-marpit-advanced-background-split="right"] .header-logo {
+    display: none;
 }
