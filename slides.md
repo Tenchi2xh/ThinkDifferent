@@ -502,7 +502,7 @@ You're probably thinking: *“WTF.”*
 
 ![w:340](img/screenshot_1.jpg) ![w:340](img/screenshot_2.jpg)
 
-Figure 36.a and 36.b: How to RSI
+Figure 38.a and 38.b: How to RSI
 
 </center>
 
