@@ -270,7 +270,10 @@ Use it for everything:
 - Not like the Windows taskbar, each icon is one application, not window.
 - “Minimized” windows go down there on the right: this is not useful at all, avoid minimizing.
 
-**Recommendation**: can be used for quick app shortcuts, but just use Spotlight instead.
+**Recommendations**:
+
+- Can be used for quick app shortcuts, but just use Spotlight instead.
+- Keep it hidden for maximal screen real estate.
 
 ---
 
@@ -374,9 +377,18 @@ Symbolized as <kbd>⌥</kbd>
 
 ### Fn
 
-- Simulate missing keys (Page up, home, etc.).
-- Used for F-Keys.
+Symbolized as <kbd>Fn</kbd>
+
+<small>
+
+- Simulate missing keys (Page up, home, F-keys, etc.).
 - Switch keyboard layouts.
+
+**Note**:
+- On Windows laptops, <kbd>Fn</kbd> is just a hardware-level key to compensate for missing keys.
+- On macOS, <kbd>Fn</kbd> is actually handled at the OS-level and is used in some keyboard shortcuts.
+
+</small>
 
 </div><div>
 
@@ -546,6 +558,7 @@ In mode 4 (drag a box thingy), press <kbd>Space</kbd> to switch to window captur
     - For example, to make “Pretty quotes”: (<kbd>⇧</kbd> +) <kbd>⌥</kbd> + <kbd>[</kbd>
 - Application settings standard shortcut is <kbd>⌘</kbd> + <kbd>,</kbd>
     - If you try <kbd>⌘</kbd> + <kbd>P</kbd> like on Windows, that's the *Print* command instead.
+- <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>D</kbd>: toggle dock auto-hide.
 
 ---
 
