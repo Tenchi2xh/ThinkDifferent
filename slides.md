@@ -84,6 +84,15 @@ The focus will be:
 
 ---
 
+## You don't have to take everything
+
+I'm just showing you my way of working:
+
+- Keep what you like
+- Knowing about the rest will still help
+
+---
+
 ## Practice makes perfect
 
 This workshop will:
@@ -287,6 +296,8 @@ Our focus today:
 - Navigating the OS without clicking around,
 - Editing text efficiently,
 - Being in control and overall productivity.
+
+It will feel like a lot, but I didn't look up any of these: it's really the list of stuff I use daily.
 
 **Note**: The following slides apply OS-wide.
 
