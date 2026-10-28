@@ -64,9 +64,15 @@ math: mathjax
 
 # I. Introduction
 
+<div class="fgm">
+
 <audio controls>
     <source src="img/startup.ogg" type="audio/ogg">
 </audio>
+
+![w:150](img/fgm.png)
+
+</div>
 
 ---
 
